@@ -1,7 +1,7 @@
 {
 	"name": "scratch.techr.eu",
 	"version": "1.0.0",
-	"description": "Scratch tasks loader",
+	"description": "Scratch File Explorer",
 	"main": "app/index.html",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
