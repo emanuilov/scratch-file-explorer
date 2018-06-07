@@ -1,0 +1,306 @@
+/*  Set the settings for the main containers */
+
+body,
+div,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../images/background/background.jpg);
+	background-repeat: no-repeat;
+	background-color: #fdfdfd;
+	height: 100vh;
+	width: 100vw;
+	background-size: 100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
+.content,
+header,
+footer {
+	width: 60%;
+	padding: 2.5% 10%;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.content div,
+header div,
+footer div {
+	margin: 0 auto;
+}
+
+.content,
+header {
+	font-weight: bold;
+}
+
+.content {
+	margin-top: 22vh;
+}
+
+/* Change display settings */
+
+.content.zero-padding {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: -5.5vh;
+}
+
+.hidden {
+	display: none;
+}
+
+/* Start page */
+
+.title {
+	background-image: url(../images/start-plates/blue.jpg);
+	background-repeat: no-repeat;
+	background-color: #0071dc;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 11.4vh;
+	line-height: 11.4vh;
+	font-size: 5.5vh;
+	color: #fff601;
+}
+
+.subtitle {
+	margin-top: 2vh;
+	vertical-align: middle;
+}
+
+.subtitle span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.subtitle .back-button {
+	background-image: url(../images/arrows/left-arrow.png);
+}
+
+.subtitle .forward-button {
+	background-image: url(../images/arrows/right-arrow.png);
+}
+
+.subtitle .forward-button,
+.subtitle .back-button {
+	width: 5%;
+	height: 5.4vh;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.subtitle span.subtitle-text {
+	background-image: url(../images/start-plates/green.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #01b73e;
+	width: 24%;
+	height: 8.4vh;
+	line-height: 8.4vh;
+	font-size: 4vh;
+	margin: 0 2%;
+}
+
+.start-button {
+	background-image: url(../images/start-plates/purple.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #01b73e;
+	width: 39%;
+	height: 10.4vh;
+	line-height: 9.6vh;
+	font-size: 5vh;
+	cursor: pointer;
+}
+
+.title,
+.start-button {
+	text-transform: uppercase;
+}
+
+footer {
+	margin-top: 10vh;
+}
+
+footer .left {
+	background-image: url(../images/start-plates/bulvest-logo-orange.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ed6502;
+	width: 34%;
+	height: 9.4vh;
+	margin-left: 10%;
+	float: left;
+	cursor: pointer;
+}
+
+footer .right {
+	background-image: url(../images/start-plates/authors-orange.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ed6502;
+	width: 34%;
+	height: 9.4vh;
+	text-transform: uppercase;
+	vertical-align: middle;
+	margin-right: 10%;
+	float: right;
+	cursor: pointer;
+}
+
+/* All lessons table*/
+
+table td {
+	width: 4%;
+	height: 10.8vh;
+	vertical-align: bottom;
+	font-size: 3vh;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: normal;
+	cursor: pointer;
+}
+
+table td.blue {
+	background-image: url(../images/lessons/lesson-plates/blue.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #0155b7;
+}
+
+table td.green {
+	background-image: url(../images/lessons/lesson-plates/green.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #018402;
+}
+
+table td.orange {
+	background-image: url(../images/lessons/lesson-plates/orange.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ea6502;
+}
+
+table td.pink {
+	background-image: url(../images/lessons/lesson-plates/pink.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ec0044;
+}
+
+table td.red {
+	background-image: url(../images/lessons/lesson-plates/red.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #b61b00;
+}
+
+table td.yellow {
+	background-image: url(../images/lessons/lesson-plates/yellow.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ffc801;
+}
+
+/* Opened lesson */
+
+.sub-plates {
+	clear: both;
+}
+
+.sub-plates .sub-plate {
+	width: 20%;
+	height: 10vh;
+	line-height: 10vh;
+	font-size: 4vh;
+	display: inline-block;
+	margin-right: 6%;
+	cursor: pointer;
+}
+
+.sub-plates .sub-plate.blue {
+	background-image: url(../images/lessons/lesson-subplates/blue.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #0155b7;
+}
+
+.sub-plates .sub-plate.green {
+	background-image: url(../images/lessons/lesson-subplates/green.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #018402;
+}
+
+.sub-plates .sub-plate.yellow {
+	background-image: url(../images/lessons/lesson-subplates/yellow.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ffc801;
+}
+
+.sub-plates .sub-plate.red {
+	background-image: url(../images/lessons/lesson-subplates/green.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #018402;
+}
+
+.sub-plates div:last-of-type {
+	margin-right: 0;
+}
+
+.lesson {
+	text-align: center;
+}
+
+.lesson .lesson-title {
+	margin: 10vh 0;
+}
+
+.lesson img:first-of-type {
+	width: 51%;
+	margin-right: 17%;
+}
+
+.lesson img:nth-of-type(2) {
+	margin-right: 1%;
+}
+
+.lesson img {
+	width: 8vw;
+}
+
+.authors {
+	color: #000;
+	margin-top: 22vh !important;
+	font-size: x-large;
+	text-align: left;
+}
+
+.authors ul {
+	width: 43%;
+	display: inline-block;
+}
+
+.authors img {
+	width: 50%;
+}
+
+.authors li {
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.authors li:hover {
+	color: #ed6502 !important;
+}

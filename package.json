@@ -1,0 +1,28 @@
+{
+	"name": "scratch.techr.eu",
+	"version": "1.0.0",
+	"description": "Scratch tasks loader",
+	"main": "app/index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://emanuilov@bitbucket.org/emanuilov/scratch-tasks-loader.git"
+	},
+	"author": "Radostin Emanuilov",
+	"license": "ISC",
+	"homepage": "https://bitbucket.org/emanuilov/scratch-tasks-loader#readme",
+	"dependencies": {
+		"opn": "^5.2.0"
+	},
+	"window": {
+		"title": "КОМПЮТЪРНО МОДЕЛИРАНЕ - 3. КЛАС",
+		"icon": "app/images/favicon.png",
+		"toolbar": false,
+		"width": 1280,
+		"height": 720,
+		"frame": true,
+		"resizable": false
+	}
+}
