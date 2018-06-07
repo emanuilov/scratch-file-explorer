@@ -8,11 +8,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://emanuilov@bitbucket.org/emanuilov/scratch-tasks-loader.git"
+		"url": "git+https://emanuilov@bitbucket.org/emanuilov/scratch-file-explorer.git"
 	},
 	"author": "Radostin Emanuilov",
 	"license": "ISC",
-	"homepage": "https://bitbucket.org/emanuilov/scratch-tasks-loader#readme",
+	"homepage": "https://bitbucket.org/emanuilov/scratch-file-explorer/src/master/",
 	"dependencies": {
 		"opn": "^5.2.0"
 	},
