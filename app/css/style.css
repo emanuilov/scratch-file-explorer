@@ -167,6 +167,7 @@ table td {
 	color: #000;
 	font-weight: normal;
 	cursor: pointer;
+	vertical-align: middle;
 }
 
 table td.blue {

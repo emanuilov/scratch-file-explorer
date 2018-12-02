@@ -14,8 +14,7 @@ $(document).ready(function () {
 	});
 
 	$('td').click(function () {
-		lessonID = $(this).find('p:last-of-type').text();
-		openLesson(lessonID);
+		openLesson($(this).data('id'), $(this).find("p:last-of-type").text());
 	});
 
 	//Open file/link
@@ -51,20 +50,24 @@ function goToLessons() {
 	updateCurrentStage(1);
 }
 
-function openLesson(lessonID) {
-	if (indexedFolders[lessonID] != undefined) {
+function openLesson(folderID, lessonID) {
+	if (indexedFolders[folderID] != undefined) {
 		updateCurrentStage(2);
 		hideContent(true);
 		var lesson = $("div.content div:nth-of-type(2)");
 		lesson.removeClass("hidden");
-		var splitID = lessonID.split('');
-		var splitIDLength = splitID.length - 1;
-		for (var i = 0; i <= splitIDLength; i++) {
-			lesson.find(".lesson-title").append('<img src="./images/lessons/lesson-numbers/' + splitID[i] + '.png" alt="' + splitID[i] + '">');
+		var numbers;
+		if (folderID == 26) {
+			numbers = [];
+		} else {
+			numbers = lessonID.split('');
+		}
+		for (var numberID = 0; numberID < numbers.length; numberID++) {
+			lesson.find(".lesson-title").append('<img src="./images/lessons/lesson-numbers/' + numbers[numberID] + '.png" alt="' + numbers[numberID] + '">');
 		}
 		var subPlates = lesson.find(".sub-plates");
 		var subPlateCnt = 0;
-		indexedFolders[lessonID].forEach(function (el) {
+		indexedFolders[folderID].forEach(function (el) {
 			subPlates.append('<div class="sub-plate ' + colors[subPlateCnt] + '" data-location="' + el + '">' + lessonID + '_' + (subPlateCnt + 1) + '</div>');
 			subPlateCnt++;
 		});
