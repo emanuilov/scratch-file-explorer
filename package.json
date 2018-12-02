@@ -1,5 +1,5 @@
 {
-	"name": "scratch.techr.eu",
+	"name": "КОМПЮТЪРНО МОДЕЛИРАНЕ",
 	"version": "1.0.0",
 	"description": "Scratch File Explorer",
 	"main": "app/index.html",
@@ -17,7 +17,7 @@
 		"opn": "^5.2.0"
 	},
 	"window": {
-		"title": "КОМПЮТЪРНО МОДЕЛИРАНЕ - 3. КЛАС",
+		"title": "КОМПЮТЪРНО МОДЕЛИРАНЕ - 4. КЛАС",
 		"icon": "app/images/favicon.png",
 		"toolbar": false,
 		"width": 1280,
