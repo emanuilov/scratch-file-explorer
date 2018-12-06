@@ -2,10 +2,10 @@ var os = require("os"),
 	fs = require("fs"),
 	path = require("path"),
 	process = require("process"),
-	dir = "C:/Program Files/Bulvest2000/Уроци",
+	dir = "C:/Program Files/Bulvest2000/4thGrade/Уроци",
 	indexedFolders = {};
 if (!fs.existsSync(dir)) {
-	dir = "C:/Program Files (x86)/Bulvest2000/Уроци";
+	dir = "C:/Program Files (x86)/Bulvest2000//4thGrade/Уроци";
 }
 
 function unixSlashes(input) {
