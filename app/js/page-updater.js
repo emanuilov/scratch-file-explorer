@@ -67,9 +67,16 @@ function openLesson(folderID, lessonID) {
 		}
 		var subPlates = lesson.find(".sub-plates");
 		var subPlateCnt = 0;
+		var row = '<div class="row"></div>';
+		var shouldIAppendRow = true;
 		indexedFolders[folderID].forEach(function (el) {
 			subPlates.append('<div class="sub-plate ' + colors[subPlateCnt] + '" data-location="' + el + '">' + lessonID + '_' + (subPlateCnt + 1) + '</div>');
 			subPlateCnt++;
+			if (subPlateCnt >= 3 && shouldIAppendRow) {
+				subPlates.append(row);
+				subPlates = subPlates.find(".row");
+				shouldIAppendRow = false;
+			}
 		});
 	}
 }

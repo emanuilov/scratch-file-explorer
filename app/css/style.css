@@ -249,11 +249,29 @@ table td.yellow {
 	background-color: #ffc801;
 }
 
-.sub-plates .sub-plate.red {
-	background-image: url(../images/lessons/lesson-subplates/green.jpg);
+.sub-plates .sub-plate.orange {
+	background-image: url(../images/lessons/lesson-subplates/red.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-color: #018402;
+	background-color: #ea6502;
+}
+
+.sub-plates .sub-plate.red {
+	background-image: url(../images/lessons/lesson-subplates/orange.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #b61b00;
+}
+
+.sub-plates .sub-plate.pink {
+	background-image: url(../images/lessons/lesson-subplates/pink.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #ec0044;
+}
+
+.sub-plates .row {
+	margin-top: 20px;
 }
 
 .sub-plates div:last-of-type {
